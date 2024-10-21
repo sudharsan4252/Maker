@@ -11,8 +11,8 @@ const UploadBar=()=>{
     }
     const [image,setImage]=useState(true);
     return(
-        <div className="p-2 flex h-full w-full gap-2">
-            <div className="flex relative items-center border rounded border-purple-400 h-full w-4/5 p-0 pb-10"> 
+        <div className="p-2 flex h-full w-full gap-2 bg-[#ecf0f1]">
+            <div className="flex relative items-center border rounded border-purple-400 h-full w-4/5 p-0 pb-10 bg-[#55E6C1]"> 
                 <div className="absolute flex  gap-2 bottom-2 right-2 items-center">
                     <Button handleClick={next} content={"upload"} image={image}/>
                     <Button handleClick={upload} content={"next"} image={image}/>
@@ -25,7 +25,7 @@ const UploadBar=()=>{
                         <img className="relative w-full" src="https://cdn-ghkoj.nitrocdn.com/kjYfdEBKRwdYwvHQyjaYBdTGFpFGjqYW/assets/images/optimized/rev-39d8e95/sertifier.com/blog/wp-content/uploads/2020/10/certificate-text-samples.jpg" alt="uploaded Image" />
             </div> }
             </div>
-            <div className="border border-gray-600 w-1/5 rounded">
+            <div className="border border-gray-600 w-1/5 rounded bg-[#9AECDB]">
                 <div>
                 </div>
             </div>
